@@ -1,0 +1,11 @@
+node_modules/
+src/
+tests
+yarn-error.log
+.DS_Store
+.prettierignore
+.prettierrc.yaml
+commitlint.config.js
+jest.config.js
+.huskyrc
+tsconfig.json
