@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-stub",
-  "version": "0.0.1",
+  "version": "0.0.2-0",
   "description": "a babel plugin help you stub variables",
   "scripts": {
     "pretest": "npm run build",
