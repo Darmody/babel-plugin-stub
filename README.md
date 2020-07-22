@@ -3,7 +3,7 @@
 > a babel plugin help you stubbing code easily (usually when you test/debug it) without modify the source code.
 
 It's a handy tool help you temporary modify code when you dubug for some spcial cases. 
-You can also use it combine with Jest fot method stub or mocking!
+You can also use it combine with testing framework (e.g. Jest) for method stub or mocking!
 
 ## Install
 
