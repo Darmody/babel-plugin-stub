@@ -1,6 +1,6 @@
 # babel-plugin-stub
 
-> a babel plugin help you easily mock your code (usually when you debug it) without modify the source code.
+> a babel plugin help you stubbing code easily (usually when you test/debug it) without modify the source code.
 
 ## Install
 
@@ -17,6 +17,8 @@ yarn add babel-plugin-stub --dev
 ```
 
 ## Usage
+
+### Configuration
 
 ```js
 // babel.config.js
