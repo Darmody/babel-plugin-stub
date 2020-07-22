@@ -13,7 +13,7 @@ function getStubValue(comments: readonly t.Comment[]) {
 
   const [_, value] = comment.value.match(regExp) || [];
 
-  // 清除 comment 标记，避免重复执行
+  // clear the comment for preventing from recursive
   comment.value = ' stub-next-line';
 
   if (!value) {
@@ -41,7 +41,7 @@ function createStubValueNode(stubValue: string) {
       }
   }
 
-  console.error(`不支持 : ${stubValue}`);
+  console.error(`"${stubValue}" is not support yet.`);
 }
 
 export default function stub(): { visitor: Visitor } {
